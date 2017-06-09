@@ -30,28 +30,47 @@ class ResultList extends Component {
 	}
 }
 
+class Loader extends Component {
+	render() {
+		return (
+			<div className="loader">
+				<div className="spinner"></div>
+				<div className="text">Loading</div>
+			</div>
+		);
+	}
+}
+
 class App extends Component {
 	constructor() {
 		super();
 
 		this.state = {
+			loading: false,
 			posts: [],
+			value: 'reactjs',
 		};
 		this.handleInput = this.handleInput.bind(this);
 		this.handleSubmit = this.handleSubmit.bind(this);
 	}
 
 	componentDidMount() {
-		this.requestData('reactjs');
+		this.requestData(this.state.value);
 	}
 
 	requestData(topic) {
 		let url = `http://www.reddit.com/r/${topic}.json`;
+		let loading = true;
+
+		this.setState({loading});
+
 		fetch(url).then(response => {
 			return response.json();
 		}).then(parsed => {
+			loading = false;
+
 			const posts = parsed.data.children.map(item => item.data);
-			this.setState({posts});
+			this.setState({posts, loading});
 		});
 	}
 
@@ -76,7 +95,7 @@ class App extends Component {
 			<div className="container-fluid">
 				<div className="row">
 					<div className="col-xs-12">
-						<h2>What are you searching for?</h2>
+						<h3>What are you searching for?</h3>
 
 						<SearchForm
 							value={this.state.value}
@@ -84,7 +103,7 @@ class App extends Component {
 							onChange={this.handleInput}
 						/>
 
-						<ResultList posts={this.state.posts} />
+						{this.state.loading ? <Loader/> : <ResultList posts={this.state.posts} />}
 					</div>
 				</div>
 			</div>
