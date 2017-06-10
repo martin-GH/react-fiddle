@@ -1,0 +1,1707 @@
+{
+  "AF": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "AL": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "DZ": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "AS": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "AO": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "AR": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO",
+    "INFO_IS_INFO"
+  ],
+  "AM": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "AW": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "AU": [
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FOURSQUARE",
+    "FACEBOOK",
+    "YELP_API",
+    "SHOWMELOCAL",
+    "HOTFROG",
+    "YALWA",
+    "NAVMII",
+    "INFOBEL",
+    "STADTBRANCHENBUCH",
+    "WHERE_TO",
+    "BROWNBOOK",
+    "TUPALO",
+    "INFO_IS_INFO"
+  ],
+  "AT": [
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YELP_API",
+    "BING",
+    "GELBE_SEITEN_ONLINE",
+    "FOURSQUARE",
+    "YALWA",
+    "STADTBRANCHENBUCH",
+    "INFOBEL",
+    "UNTERNEHMENSAUSKUNFT",
+    "BUSINESSBRANCHENBUCH",
+    "WHERE_TO",
+    "ABCLOCAL",
+    "YELLBO",
+    "KOOMIO",
+    "GUIDELOCAL",
+    "OEFFNUNGSZEITENBUCH",
+    "INFO_IS_INFO",
+    "JELLOO",
+    "BROWNBOOK",
+    "INSTAGRAM",
+    "NAVMII"
+  ],
+  "AZ": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "BH": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "BD": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "BB": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "BY": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "BE": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "INFOBEL",
+    "BROWNBOOK",
+    "NAVMII",
+    "TUPALO"
+  ],
+  "BZ": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "BJ": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "BM": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "BO": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "BA": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO",
+    "INFO_IS_INFO"
+  ],
+  "BW": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "BR": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO",
+    "INFO_IS_INFO"
+  ],
+  "BN": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "BG": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "INFOBEL",
+    "BROWNBOOK",
+    "NAVMII",
+    "TUPALO"
+  ],
+  "BF": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "BI": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "KH": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "CM": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "CA": [
+    "FOURSQUARE",
+    "INSTAGRAM",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YELP_API",
+    "YALWA",
+    "FACTUAL",
+    "WHERE_TO",
+    "NAVMII",
+    "SHOWMELOCAL",
+    "BROWNBOOK",
+    "TUPALO",
+    "STADTBRANCHENBUCH",
+    "INFOBEL",
+    "MANTA",
+    "BING",
+    "ACOMPIO",
+    "N49",
+    "HOTFROG"
+  ],
+  "CV": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "CF": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "TD": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "CL": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO",
+    "INFO_IS_INFO"
+  ],
+  "CN": [
+    "FOURSQUARE",
+    "FACEBOOK",
+    "YALWA",
+    "TUPALO"
+  ],
+  "CO": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO",
+    "INFO_IS_INFO"
+  ],
+  "KM": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "CG": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "CD": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "CR": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "CI": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "HR": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "NAVMII",
+    "INFOBEL",
+    "BROWNBOOK",
+    "TUPALO"
+  ],
+  "CY": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "CU": [],
+  "CZ": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "DK": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "NAVMII",
+    "BROWNBOOK",
+    "INFOBEL",
+    "TUPALO"
+  ],
+  "DJ": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "DO": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "EC": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "EG": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "SV": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "GQ": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "ER": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "EE": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "ET": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "FO": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "FI": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "FR": [
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "FOURSQUARE",
+    "YELP_API",
+    "PRATIQUE",
+    "JUSTACOTE",
+    "SHOPPING_TIME_NETWORK",
+    "PAGES24",
+    "FACTUAL",
+    "INSTAGRAM",
+    "INFOBEL",
+    "HOTFROG",
+    "BROWNBOOK",
+    "NAVMII",
+    "YALWA",
+    "STADTBRANCHENBUCH",
+    "WHERE_TO",
+    "TUPALO",
+    "ABCLOCAL",
+    "YELLBO",
+    "JELLOO",
+    "INFO_IS_INFO",
+    "GUIDELOCAL"
+  ],
+  "GF": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "GA": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "GE": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "DE": [
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FOURSQUARE",
+    "FACEBOOK",
+    "YELP_API",
+    "BING",
+    "MEINESTADT",
+    "BUSINESSBRANCHENBUCH",
+    "WEB_DE",
+    "I_GLOBAL",
+    "GMX",
+    "STADTBRANCHENBUCH",
+    "YELLOW_MAP",
+    "OEFFNUNGSZEITENBUCH",
+    "BUNDES_TELEFONBUCH",
+    "UNTERNEHMENSAUSKUNFT",
+    "WO_GIBTS_WAS",
+    "NAVMII",
+    "REGIONAL_DE",
+    "TUPALO",
+    "DIALO",
+    "BROWNBOOK",
+    "HOTFROG",
+    "LOOCAL",
+    "KOOMIO",
+    "INFOBEL",
+    "INFO_IS_INFO",
+    "BRANCHENBUCH_DEUTSCHLAND",
+    "YALWA",
+    "MARKTPLATZ_MITTELSTAND",
+    "GO_YELLOW",
+    "FREIEAUSKUNFT",
+    "LOKALEAUSKUNFT",
+    "WHERE_TO",
+    "FOCUS",
+    "ABCLOCAL",
+    "GUIDELOCAL",
+    "ONE_AND_ONE",
+    "JELLOO",
+    "YELLBO"
+  ],
+  "GH": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "GR": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "GL": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "GP": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "GU": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "GT": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "GN": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "GW": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "GY": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "HN": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "HK": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO",
+    "INFO_IS_INFO"
+  ],
+  "HU": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "IS": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "IN": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO",
+    "INFO_IS_INFO"
+  ],
+  "ID": [
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "FOURSQUARE",
+    "INFOBEL",
+    "INSTAGRAM",
+    "BROWNBOOK",
+    "WHERE_TO",
+    "TUPALO",
+    "STADTBRANCHENBUCH",
+    "INFO_IS_INFO",
+    "YALWA",
+    "FACTUAL",
+    "NAVMII"
+  ],
+  "IR": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "IQ": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "IE": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO",
+    "INFO_IS_INFO"
+  ],
+  "IL": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "IT": [
+    "GOOGLE",
+    "FOURSQUARE",
+    "GOOGLE_MAPS",
+    "YELP_API",
+    "BING",
+    "INFOBEL",
+    "STADTBRANCHENBUCH",
+    "FACEBOOK",
+    "FACTUAL",
+    "RICERCARE_IMPRESE",
+    "WHERE_TO",
+    "INFO_IS_INFO",
+    "INSTAGRAM",
+    "ABCLOCAL",
+    "NAVMII",
+    "TUPALO",
+    "JELLOO",
+    "GUIDELOCAL",
+    "BROWNBOOK",
+    "YELLBO"
+  ],
+  "JM": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "JP": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "JO": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "KZ": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "KE": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "KR": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "KW": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "LV": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "LB": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "LR": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "LY": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "LI": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "LT": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "LU": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "MO": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "MK": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "MG": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "MY": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO",
+    "INFO_IS_INFO"
+  ],
+  "ML": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "MT": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "MH": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "MQ": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "MU": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "YT": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "MX": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO",
+    "INFO_IS_INFO"
+  ],
+  "MD": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "MC": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "ME": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "MA": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "INFOBEL",
+    "BROWNBOOK",
+    "TUPALO"
+  ],
+  "MZ": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "MM": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "NA": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "NP": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "NL": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "STADTBRANCHENBUCH",
+    "YALWA",
+    "INFOBEL",
+    "INFO_IS_INFO",
+    "ABCLOCAL",
+    "YELLBO",
+    "JELLOO",
+    "GUIDELOCAL",
+    "WHERE_TO"
+  ],
+  "NZ": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO",
+    "INFO_IS_INFO"
+  ],
+  "NI": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "NE": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "NG": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO",
+    "INFO_IS_INFO"
+  ],
+  "MP": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "NO": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "INFOBEL",
+    "WHERE_TO",
+    "BROWNBOOK",
+    "NAVMII",
+    "TUPALO"
+  ],
+  "OM": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "PK": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO",
+    "INFO_IS_INFO"
+  ],
+  "PA": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "PY": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "PE": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO",
+    "INFO_IS_INFO"
+  ],
+  "PH": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO",
+    "BROWNBOOK",
+    "INFO_IS_INFO",
+    "FACTUAL",
+    "NAVMII"
+  ],
+  "PL": [
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FOURSQUARE",
+    "INFOBEL",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO",
+    "INSTAGRAM",
+    "BROWNBOOK",
+    "INFO_IS_INFO",
+    "NAVMII"
+  ],
+  "PT": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "INSTAGRAM",
+    "WHERE_TO",
+    "TUPALO",
+    "NAVMII",
+    "BROWNBOOK",
+    "INFOBEL",
+    "INFO_IS_INFO"
+  ],
+  "PR": [
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "FOURSQUARE",
+    "BROWNBOOK",
+    "NAVMII",
+    "TUPALO",
+    "STADTBRANCHENBUCH",
+    "YALWA",
+    "WHERE_TO"
+  ],
+  "QA": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "RE": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "RO": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "RU": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "RW": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "BL": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "MF": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "ST": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "SA": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "SN": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "RS": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "SG": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO",
+    "INFO_IS_INFO"
+  ],
+  "SK": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "SI": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "NAVMII",
+    "TUPALO",
+    "STADTBRANCHENBUCH",
+    "INFOBEL"
+  ],
+  "SO": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "ZA": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO",
+    "INFO_IS_INFO"
+  ],
+  "ES": [
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FOURSQUARE",
+    "YELP_API",
+    "BING",
+    "FACEBOOK",
+    "STADTBRANCHENBUCH",
+    "YELLBO",
+    "INSTAGRAM",
+    "INFOBEL",
+    "YALWA",
+    "FACTUAL",
+    "TUPALO",
+    "BROWNBOOK",
+    "BUSQUEDA_LOCAL",
+    "HOTFROG",
+    "NAVMII",
+    "WHERE_TO",
+    "INFO_IS_INFO",
+    "ABCLOCAL",
+    "GUIDELOCAL",
+    "JELLOO"
+  ],
+  "LK": [
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "FOURSQUARE",
+    "INSTAGRAM",
+    "WHERE_TO",
+    "BROWNBOOK",
+    "TUPALO",
+    "NAVMII"
+  ],
+  "SD": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "SE": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "INSTAGRAM",
+    "BROWNBOOK",
+    "INFOBEL",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "CH": [
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FOURSQUARE",
+    "FACEBOOK",
+    "INFOBEL",
+    "YELP_API",
+    "NAVMII",
+    "BING",
+    "YALWA",
+    "STADTBRANCHENBUCH",
+    "UNTERNEHMENSAUSKUNFT",
+    "BUSINESSBRANCHENBUCH",
+    "WHERE_TO",
+    "TUPALO",
+    "KOOMIO",
+    "OEFFNUNGSZEITENBUCH",
+    "ABCLOCAL",
+    "HOTFROG",
+    "YELLBO",
+    "BROWNBOOK",
+    "GUIDELOCAL",
+    "JELLOO"
+  ],
+  "SY": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "TW": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "TZ": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "TH": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "TG": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "TO": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "TT": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "TN": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "BROWNBOOK",
+    "NAVMII",
+    "TUPALO"
+  ],
+  "TR": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO",
+    "INFOBEL",
+    "STADTBRANCHENBUCH"
+  ],
+  "UG": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "UA": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "BROWNBOOK",
+    "WHERE_TO",
+    "INFOBEL",
+    "NAVMII",
+    "TUPALO"
+  ],
+  "AE": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "UK": [
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FOURSQUARE",
+    "BING",
+    "FACEBOOK",
+    "YELP_API",
+    "CENTRAL_INDEX",
+    "THE_SCOTSMAN",
+    "THE_MIRROR",
+    "SCOOT",
+    "THE_INDEPENDENT",
+    "ONE_NINE_TWO",
+    "CITIPAGES",
+    "LIVERPOOL_ECHO",
+    "TUPALO",
+    "ACOMPIO",
+    "TOUCH_LOCAL",
+    "INFOBEL",
+    "YALWA",
+    "STADTBRANCHENBUCH",
+    "MY_LOCAL_SERVICES",
+    "NAVMII",
+    "WHERE_TO",
+    "BROWNBOOK",
+    "INFO_IS_INFO",
+    "ABCLOCAL",
+    "GUIDELOCAL",
+    "YELLBO",
+    "JELLOO"
+  ],
+  "US": [
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YELP_API",
+    "BING",
+    "FOURSQUARE",
+    "CHAMBER_OF_COMMERCE",
+    "EZLOCAL",
+    "JUDYS_BOOK",
+    "WAZE",
+    "LOCALSTACK",
+    "US_CITY",
+    "MY_LOCAL_SERVICES",
+    "CITY_SQUARES",
+    "N49",
+    "HOTFROG",
+    "UBER",
+    "US_INFO_COM",
+    "SHOWMELOCAL",
+    "BROWNBOOK",
+    "ACOMPIO",
+    "PAGES24",
+    "TUPALO",
+    "WHERE_TO",
+    "STADTBRANCHENBUCH",
+    "YALWA",
+    "FACTUAL",
+    "NAVMII",
+    "YA_SABE",
+    "EL_TIEMPO_LATINO",
+    "PALM_BEACH_POST",
+    "STATESMAN",
+    "LATINOS_US",
+    "LA_VOZ_TX",
+    "MUNDO_HISPANICO",
+    "AL_DIA_TX",
+    "CHRON",
+    "UNIVISION"
+  ],
+  "UM": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "UY": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "UZ": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "VE": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "YALWA",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "VN": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "VI": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "YE": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "ZM": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ],
+  "ZW": [
+    "FOURSQUARE",
+    "GOOGLE",
+    "GOOGLE_MAPS",
+    "FACEBOOK",
+    "WHERE_TO",
+    "TUPALO"
+  ]
+}

@@ -1,45 +1,11 @@
 import React, { Component } from 'react';
 import fetch from 'isomorphic-fetch';
 
-class SearchForm extends Component {
-	render() {
-		return (
-			<form className="form-inline search-form" onSubmit={this.props.onSubmit}>
-				<div className="form-group">
-					<input
-						type="text"
-						className="form-control"
-						placeholder="topic"
-						value={this.props.value}
-						onChange={this.props.onChange}
-					/>
-				</div>
-				<button type="submit" className="btn btn-primary">Search</button>
-			</form>
-		);
-	}
-}
-
-class ResultList extends Component {
-	render() {
-		return (
-			<div className="list-group">
-				{this.props.posts.map(post => <a key={post.id} className="list-group-item" href={post.url}>{post.title}</a>)}
-			</div>
-		);
-	}
-}
-
-class Loader extends Component {
-	render() {
-		return (
-			<div className="loader">
-				<div className="spinner"></div>
-				<div className="text">Loading</div>
-			</div>
-		);
-	}
-}
+import config from './config';
+import Listings from './components/Listings';
+import Loader from './components/Loader';
+import SearchForm from './components/SearchForm';
+import { createQueryString } from './shared/helper';
 
 class App extends Component {
 	constructor() {
@@ -47,63 +13,103 @@ class App extends Component {
 
 		this.state = {
 			loading: false,
-			posts: [],
-			value: 'reactjs',
+			country: 'DE',
+			name: '',
+			street: '',
+			zip: '',
+			countries: [],
+			directories: [],
+			listings: [],
 		};
+
 		this.handleInput = this.handleInput.bind(this);
 		this.handleSubmit = this.handleSubmit.bind(this);
 	}
 
 	componentDidMount() {
-		this.requestData(this.state.value);
-	}
-
-	requestData(topic) {
-		let url = `http://www.reddit.com/r/${topic}.json`;
-		let loading = true;
-
-		this.setState({loading});
-
-		fetch(url).then(response => {
-			return response.json();
-		}).then(parsed => {
-			loading = false;
-
-			const posts = parsed.data.children.map(item => item.data);
-			this.setState({posts, loading});
-		});
+		fetch(config.directories).then(response => response.json()).then(directories => {
+			const countries = Object.keys(directories);
+			this.setState({countries, directories});
+		})
 	}
 
 	handleInput(event) {
 		this.setState({
-			value: event.target.value,
+			[event.target.name]: event.target.value,
 		});
 	}
 
 	handleSubmit(event) {
 		event.preventDefault();
 
-		if (!this.state.value) {
+		if (!this.state.name) { // TODO check for empty inputs... company etc.
 			return;
 		}
 
-		this.requestData(this.state.value)
+		this.searchRequest();
+	}
+
+	searchRequest() {
+		let options = {
+			method: 'POST',
+			body: JSON.stringify({
+				public_key: config.publicKey,
+				country: this.state.country,
+				name: this.state.name,
+				street: this.state.street,
+				zip: this.state.zip,
+			})
+		};
+
+		fetch(config.api, options).then(response => {
+			return response.json();
+		}).then(parsed => {
+			// reset results
+			this.setState({listings: []});
+
+			let {id, token, country} = parsed.response.searchData;
+
+			this.state.directories[country].forEach((directory) => {
+				this.presenceCheckRequest(id, token, directory);
+			});
+		});
+	}
+
+	presenceCheckRequest(id, token, directory) {
+		let params = createQueryString({
+			token,
+			directory,
+			public_key: config.publicKey,
+		});
+		let url = `${config.api}/${id}?${params}`;
+
+		fetch(url).then(response => {
+			return response.json();
+		}).then(parsed => {
+			const listing = parsed.response.result;
+			const listings = this.state.listings.concat(listing);
+
+			const loading = listings.length !== this.state.directories[this.state.country].length;
+
+			this.setState({listings, loading});
+		});
 	}
 
 	render() {
 		return (
-			<div className="container-fluid">
+			<div className="container">
 				<div className="row">
 					<div className="col-xs-12">
-						<h3>What are you searching for?</h3>
-
 						<SearchForm
-							value={this.state.value}
+							countries={this.state.countries}
+							name={this.state.name}
+							street={this.state.street}
+							zip={this.state.zip}
 							onSubmit={this.handleSubmit}
 							onChange={this.handleInput}
 						/>
 
-						{this.state.loading ? <Loader/> : <ResultList posts={this.state.posts} />}
+						{this.state.loading ? <Loader/> : <Listings data={this.state.listings} />}
 					</div>
 				</div>
 			</div>

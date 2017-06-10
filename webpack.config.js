@@ -74,9 +74,10 @@ module.exports = {
 			template: 'public/index.html',
 		}),
 
-		/*new CopyWebpackPlugin([
-			{from: 'mock'}
-		]),*/
+		new CopyWebpackPlugin([
+			{from: 'static'},
+			{from: 'public'}
+		]),
 
 		new webpack.HotModuleReplacementPlugin(),
 		// enable HMR globally
