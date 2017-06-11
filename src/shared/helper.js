@@ -4,7 +4,7 @@ export const createQueryString = (obj) => {
 	}).join('&');
 };
 
-export const isEmpty = (arr) => {
+export const isEmpty = (...arr) => {
 	return arr.reduce((a, b) => {
 		a = a || b === null || b.toString() === '';
 

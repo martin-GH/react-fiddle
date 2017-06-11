@@ -64,25 +64,25 @@ const Listings = ({data}) => {
 	return data.length ? listings : null;
 };
 
-const BusinessInfo = ({data}) => {
-	let website = null;
+const BusinessInfo = ({city, cityStatus, name, nameStatus, street, streetStatus, streetNo, streetNoStatus, zip, zipStatus, website, websiteStatus}) => {
+	let websiteLink = null;
 
-	if (data.websiteStatus === 'PRESENT') {
-		website = <a href={data.website}>{data.website}</a>
+	if (websiteStatus === 'PRESENT') {
+		websiteLink = <a href={website}>{website}</a>
 	}
 
 	return (
 		<div className="BusinessInfo">
-			<div className={data.nameStatus.toLowerCase()}>{data.name}</div>
+			<div className={nameStatus.toLowerCase()}>{name}</div>
 			<div>
-				<span className={data.streetStatus.toLowerCase()}>{data.street}</span>
-				<span className={data.streetNoStatus.toLowerCase()}>{data.streetNo}</span>
+				<span className={streetStatus.toLowerCase()}>{street}</span>
+				<span className={streetNoStatus.toLowerCase()}>{streetNo}</span>
 			</div>
 			<div>
-				<span className={data.zipStatus.toLowerCase()}>{data.zip}</span>
-				<span className={data.cityStatus.toLowerCase()}>{data.city}</span>
+				<span className={zipStatus.toLowerCase()}>{zip}</span>
+				<span className={cityStatus.toLowerCase()}>{city}</span>
 			</div>
-			<div>{website}</div>
+			<div>{websiteLink}</div>
 		</div>
 	);
 };
@@ -96,7 +96,7 @@ const Listing = ({businessInfo, cx, directoryType, openingHoursStatus, photosSta
 							 alt={directoryType}/> {directoryType}
 				</div>
 				<div className="col-sm-5 hidden-xs">
-					<BusinessInfo data={businessInfo}/>
+					<BusinessInfo {...businessInfo}/>
 				</div>
 				<div className="col-sm-2 hidden-xs text-center">
 					<img src={`img/${openingHoursStatus}.svg`} width="17" height="18"/>

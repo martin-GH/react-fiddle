@@ -45,7 +45,7 @@ class App extends Component {
 	handleSubmit(event) {
 		event.preventDefault();
 
-		if (isEmpty([this.state.name, this.state.country, this.state.street, this.state.zip])) {
+		if (isEmpty(this.state.name, this.state.country, this.state.street, this.state.zip)) {
 			return;
 		}
 
