@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import fetch from 'isomorphic-fetch';
+import Promise from 'es6-promise';
 
 import config from './config';
 import Listings from './components/Listings';
 import Loader from './components/Loader';
 import SearchForm from './components/SearchForm';
-import { createQueryString } from './shared/helper';
+import { createQueryString, isEmpty } from './shared/helper';
 
 class App extends Component {
 	constructor() {
@@ -14,9 +15,9 @@ class App extends Component {
 		this.state = {
 			loading: false,
 			country: 'DE',
-			name: '',
-			street: '',
-			zip: '',
+			name: 'Einstein',
+			street: 'Unter den Linden 42',
+			zip: '10117',
 			countries: [],
 			directories: [],
 			listings: [],
@@ -27,10 +28,12 @@ class App extends Component {
 	}
 
 	componentDidMount() {
-		fetch(config.directories).then(response => response.json()).then(directories => {
-			const countries = Object.keys(directories);
-			this.setState({countries, directories});
-		})
+		fetch(config.directories)
+			.then(response => response.json())
+			.then(directories => {
+				const countries = Object.keys(directories);
+				this.setState({countries, directories});
+			});
 	}
 
 	handleInput(event) {
@@ -42,7 +45,7 @@ class App extends Component {
 	handleSubmit(event) {
 		event.preventDefault();
 
-		if (!this.state.name) { // TODO check for empty inputs... company etc.
+		if (isEmpty([this.state.name, this.state.country, this.state.street, this.state.zip])) {
 			return;
 		}
 
@@ -50,7 +53,9 @@ class App extends Component {
 	}
 
 	searchRequest() {
-		let options = {
+		this.setState({listings: [], loading: true});
+
+		const options = {
 			method: 'POST',
 			body: JSON.stringify({
 				public_key: config.publicKey,
@@ -61,41 +66,39 @@ class App extends Component {
 			})
 		};
 
-		fetch(config.api, options).then(response => {
-			return response.json();
-		}).then(parsed => {
-			// reset results
-			this.setState({listings: []});
-
-			let {id, token, country} = parsed.response.searchData;
-
-			this.state.directories[country].forEach((directory) => {
-				this.presenceCheckRequest(id, token, directory);
+		fetch(config.api, options)
+			.then(response => response.json())
+			.then(parsed => {
+				const {id, token, country} = parsed.response.searchData;
+				const listings = this.state.directories[country].map(directory => this.getListing(id, token, directory));
+				this.setListings(listings);
+			})
+			.catch(() => {
+				this.setState({loading: false});
 			});
-		});
 	}
 
-	presenceCheckRequest(id, token, directory) {
-		let params = createQueryString({
+	getListing(id, token, directory) {
+		const params = createQueryString({
 			token,
 			directory,
 			public_key: config.publicKey,
 		});
-		let url = `${config.api}/${id}?${params}`;
+		const url = `${config.api}/${id}?${params}`;
 
-		fetch(url).then(response => {
-			return response.json();
-		}).then(parsed => {
-			const listing = parsed.response.result;
-			const listings = this.state.listings.concat(listing);
+		return fetch(url).then(response => response.json()).then(parsed => parsed.response.result);
+	}
 
-			const loading = listings.length !== this.state.directories[this.state.country].length;
-
-			this.setState({listings, loading});
+	setListings(listings) {
+		Promise.all(listings).then(items => {
+			console.log(items);
+			this.setState({listings: items, loading: false});
 		});
 	}
 
 	render() {
+		const content = this.state.loading ? <Loader/> : <Listings data={this.state.listings}/>;
+
 		return (
 			<div className="container">
 				<div className="row">
@@ -109,7 +112,7 @@ class App extends Component {
 							onChange={this.handleInput}
 						/>
 
-						{this.state.loading ? <Loader/> : <Listings data={this.state.listings} />}
+						{content}
 					</div>
 				</div>
 			</div>

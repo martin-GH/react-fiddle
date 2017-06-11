@@ -3,3 +3,11 @@ export const createQueryString = (obj) => {
 		return `${encodeURIComponent(key)}=${encodeURIComponent(obj[key])}`;
 	}).join('&');
 };
+
+export const isEmpty = (arr) => {
+	return arr.reduce((a, b) => {
+		a = a || b === null || b.toString() === '';
+
+		return a;
+	}, false);
+};

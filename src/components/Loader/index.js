@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React  from 'react';
 
-export default class Listings extends Component {
-	render() {
-		return (
-			<div className="loader">
-				<div className="spinner"></div>
-			</div>
-		);
-	}
-}
+const Loader = () => {
+	return (
+		<div className="loader">
+			<div className="spinner"/>
+		</div>
+	);
+};
+
+export default Loader;

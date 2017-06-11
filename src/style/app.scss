@@ -2,6 +2,7 @@
 
 $color-blue: #244057;
 $color-lightblue: #f3f8fb;
+$color-red: #cd4a5a;
 
 .list-group-item {
   padding: 5px 10px;
@@ -52,4 +53,8 @@ $color-lightblue: #f3f8fb;
 }
 .even {
   background-color: $color-lightblue;
+}
+
+.mismatch {
+  color: $color-red;
 }
